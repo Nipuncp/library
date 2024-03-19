@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <script src=" script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-text">
+            Welcome to Nipun's Library
+        </div>
+        <div class="action-button">
+            <button id="add-book">Add New Book</button>
+        </div>
+        <div class="action-button">
+            <button id="show-library">Show Library Books</button>
+        </div>
+
+        <dialog id="book-dialog">
+            <form id="book-form" action="">
+                <label for="title">Book Title</label>
+                <input type="text" name="title" id="title" />
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author">
+                <label for="noOfPages">No of Pages</label>
+                <input type="text" name ="noOfPages" id="noOfPages">
+                <label for="isRead">Have you Read the Book</label>
+                <input type="text" name="isRead" id="isRead" />
+                <input id="confirm-button" type="submit" value="Add the Book">
+            </form>
+        </dialog>
+
+
+        <output>
+
+        </output>
+    </div>    
+</body>
+</html>
